@@ -6,6 +6,8 @@
 
 ### Can be found in Hateno Village in various houses. (See [this video](https://www.youtube.com/watch?v=GjqtbAuT6d0) for precise locations.)
 
+### Downlaod 7-Zipped [Source Files](https://onedrive.live.com/download?cid=74309C0E337BBADE&resid=74309C0E337BBADE%21312820&authkey=AIR9IWo-utBOZF4) from OneDrive
+
 ## Credits -
 
 Arch Leaders: Modder, Modeler
