@@ -1,0 +1,13 @@
+{
+  "name": "Hateno Ceremonial Set",
+  "image": "./a_thumbnail.png",
+  "url": "https://gamebanana.com/mods/342000",
+  "desc": "Adds the Hateno Ceremonial Set concept as unique upgradable items. \n\nCan be found in Hateno Village in various houses.\n\nSee this video for precise locations: https://www.youtube.com/watch?v=GjqtbAuT6d0",
+  "version": "1.0.1",
+  "options": {},
+  "depends": [],
+  "showCompare": false,
+  "showConvert": false,
+  "id": "SGF0ZW5vIENlcmVtb25pYWwgU2V0PT0xLjAuMQ==",
+  "platform": "wiiu"
+}
