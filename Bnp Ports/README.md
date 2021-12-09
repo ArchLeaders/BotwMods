@@ -1,1 +1,1 @@
-# Ports of other mods to newer bnps or to switch/wiiu format.
+# Other mods nade into newer bnps and switch/wiiu ports.
