@@ -284,5 +284,5 @@ This is usually caused when either `Vertex Colors` was not checked when importin
 ### Invisible Model (With Collision)
 This is usually caused when the material is broken, re-importing with a different material should fix this.
 
-### Invisble Model (No Collision)
+### Invisible Model (No Collision)
 This is usually caused when something in the SBFRES is named incorrectly. Double-check that the names match those in the `README.yml`.
