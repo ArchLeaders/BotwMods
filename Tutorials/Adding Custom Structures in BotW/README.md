@@ -276,7 +276,7 @@ Once the command completes, proceed to test just as before.
 
 ![_blank](https://user-images.githubusercontent.com/80713508/147893127-34fe7881-722d-41b6-9ca4-756b8d96a332.png)
 
-## Common Errors
+## Common Issues
 
 ### Black Textures
 This is usually caused when either `Vertex Colors` was not checked when importing or the textures are in the wrong format.
