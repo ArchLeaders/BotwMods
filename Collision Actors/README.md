@@ -1,4 +1,5 @@
 # Collision Actors
+> [Collision Actors-v1.0.5.bnp](https://onedrive.live.com/download?cid=74309C0E337BBADE&resid=74309C0E337BBADE%21333217&authkey=AB7DGXhsMSNU0Jg)
 
 Every *applicable* actor in the game duplicated with collision.
 
