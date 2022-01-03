@@ -77,9 +77,9 @@ _If you are confused by all these controls, check out [this](https://github.com/
 
 ## Exporting a Collision Packfile
 
-Collison in BotW has a few different formats; the one we will be using is HKRB (**H**avo**k** **R**igid-**B**ody)
+Collision in BotW has a few different formats; the one we will be using is HKRB (**H**avo**k** **R**igid-**B**ody)
 
-To export the collison as HKRB, select the objects that are part of the model and click the `Generate BotW packfile` button in the HKRB tab.
+To export the collision as HKRB, select the objects that are part of the model and click the `Generate BotW packfile` button in the HKRB tab.
 Check `Selected Objects` and save the HKRB file in the `root` of your mod; the name will represent the actor name following [these rules](https://github.com/ArchLeaders/Botw-Modding-Toolkit/blob/master/Docs/Info/NamingRules.md#mtk---actor-namimg-rules), so avoid leaving it as `untitled.hkrb`.
 
 ![0009](https://user-images.githubusercontent.com/80713508/147892498-1d978747-9e91-47d0-9ee2-1b5464602e81.png)
@@ -101,7 +101,7 @@ Exporting the model is super easy, but there are a few things you should know be
 4. When naming the exported FBX, make the name the same as the actor.
 
 To export the model, select all the objects your using, then go to `File` > `Export` > `FBX`.
-In the export window set the scale to `0.01` and check `Selected Objects`, then save it in the `Assets` folder.
+In the export window, set the scale to `0.01` and check `Selected Objects`, then save it in the `Assets` folder.
 If there are (or will be) lots of assets, I recommend making a `Model` sub-folder for the model files.
 
 ![0012](https://user-images.githubusercontent.com/80713508/147892506-839474ad-f614-4a8b-88f2-6b5e73de7075.png)
@@ -236,7 +236,7 @@ Load a save in BotW and click `Scan Memory` in the [Memory Editor](https://onedr
 
 ![0030](https://user-images.githubusercontent.com/80713508/147892552-0c0484f0-560c-4ff7-a4d0-df29ce335ea0.png)
 
-In the `Weapons` tab, select any weapon and change the ID to the `New Actor Name`, then click `Update`.
+In the `Weapons` tab, select any weapon, and change the ID to the `New Actor Name`, then click `Update`.
 
 ![0031](https://user-images.githubusercontent.com/80713508/147892556-844cb881-d9f1-4ebc-aa08-df6c76eb2b54.png)
 
@@ -258,7 +258,7 @@ Luckily I know how to fix this. And with MTK, it is super easy to test changes.
 
 Open the model SBFRES and select the material that is glowing the wrong color.
 
-With the desired material selected, go to the `Parameters` tab, scroll down and look for `const_color0`.
+With the desired material selected, go to the `Parameters` tab, scroll down, and look for `const_color0`.
 
 Double click that entry to open the `ParamValueDialog`, double click the colored rectangle to change the color.
 
