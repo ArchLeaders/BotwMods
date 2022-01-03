@@ -6,7 +6,6 @@
 - [BotW Modding Toolkit](https://onedrive.live.com/download?cid=74309C0E337BBADE&resid=74309C0E337BBADE%21333210&authkey=AIvYBLZa9siUSoA) (MTK)
 - [Breath of the Wow](https://onedrive.live.com/download?cid=74309C0E337BBADE&resid=74309C0E337BBADE%21333211&authkey=AOErcELM6eb2RHk) (Memory Editor)
 - [HKX2 Blender Addon](https://gitlab.com/HKX2/BlenderAddon/-/raw/main/blenderaddon_hkx2.zip)
-- [Ice-Spear](https://github.com/NiceneNerd/ice-spear/releases) (Optional)
 - [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases) (STB)
 - Text Editor (I use [VSCode](https://code.visualstudio.com/))
 - WiiU/[Cemu](https://cemu.info/) (MTK does not support switch yet)
@@ -36,7 +35,7 @@ MTK will open; you can just ignore that window for now.
 ![_blank](https://user-images.githubusercontent.com/80713508/147893127-34fe7881-722d-41b6-9ca4-756b8d96a332.png)
 
 # Blender and HKX2
-> [Download](https://gitlab.com/HKX2/BlenderAddon/-/raw/main/blenderaddon_hkx2.zip)
+> [Download HKX2 Blender Addon](https://gitlab.com/HKX2/BlenderAddon/-/raw/main/blenderaddon_hkx2.zip)
 
 ## Install the HKX2 Blender Addon.
 
@@ -85,7 +84,7 @@ Check `Selected Objects` and save the HKRB file in the `root` of your mod; the n
 
 ![0009](https://user-images.githubusercontent.com/80713508/147892498-1d978747-9e91-47d0-9ee2-1b5464602e81.png)
 
-Confirm it saved and proceed to exporting your model.
+Confirm that it saved and proceed to exporting your model.
 
 ![_blank](https://user-images.githubusercontent.com/80713508/147893127-34fe7881-722d-41b6-9ca4-756b8d96a332.png)
 
@@ -93,19 +92,17 @@ Confirm it saved and proceed to exporting your model.
 
 Exporting the model is super easy, but there are a few things you should know before you continue.
 
-1. If you want to use any texture other than the Alb (Color Texture), you need to duplicate the UV map.
+1. If you want to use any texture other than the Alb (Color Texture), you need to [duplicate the UV map]().
 
 2. I have noticed that when there is lots of overlapping mesh in the model, it acts oddly in BotW, so try to clean it up as best you can before exporting.
 
-3. Keep your naming consistent; if your actor is named `TwnObj_2022Sign_A_01`, make the name of your material something like `Mt_2022Sign_ObjectName_A_01_Alb` to follow the BotW standard. See more naming notes [here](https://github.com/ArchLeaders/Botw-Modding-Toolkit/blob/master/Docs/Info/NamingRules.md)
+3. Keep your naming consistent; if your actor is named `TwnObj_2022Sign_A_01`, make the name of your materials, textures, etc something like `Mt_2022Sign_ObjectName_A_01_Alb`. See more naming notes [here](https://github.com/ArchLeaders/Botw-Modding-Toolkit/blob/master/Docs/Info/NamingRules.md)
 
 4. When naming the exported FBX, make the name the same as the actor.
 
 To export the model, select all the objects your using, then go to `File` > `Export` > `FBX`.
 In the export window set the scale to `0.01` and check `Selected Objects`, then save it in the `Assets` folder.
 If there are (or will be) lots of assets, I recommend making a `Model` sub-folder for the model files.
-
-![_blank](https://user-images.githubusercontent.com/80713508/147893127-34fe7881-722d-41b6-9ca4-756b8d96a332.png)
 
 ![0012](https://user-images.githubusercontent.com/80713508/147892506-839474ad-f614-4a8b-88f2-6b5e73de7075.png)
 
@@ -134,7 +131,7 @@ _Note: the following image has the wrong file selected in File Explorer, follow 
 
 ![0015-0016](https://user-images.githubusercontent.com/80713508/147892514-db6f872f-8a37-40ff-a8b5-fc11fedbf537.png)
 
-Before importing the FBX file exported from Blender earlier, there are a few things that need to be done. _(Steps 1 and 2 will hopefully be automated in the future.)_
+Before importing the FBX file exported from Blender earlier, there are a few things that need to be done. _(This will hopefully be automated in the future.)_
 
 1. Rename the SBFRES file inside [STB](https://github.com/KillzXGaming/Switch-Toolbox/releases).
 The file name you see in File Explorer is not the actual SBFRES name.
@@ -161,7 +158,7 @@ In [STB](https://github.com/KillzXGaming/Switch-Toolbox/releases), right-click t
 
 Browse for your `FBX` file and click `Open` then `OK` on the first popup.
 
-For the second popup, check `Enable Vertex Colors`.
+On the second popup, check `Enable Vertex Colors`.
 Then click the red `(Select Material!)` text box and browse for a BotW Material (`bfmat`).
 I will be using [this](https://onedrive.live.com/download?cid=74309C0E337BBADE&resid=74309C0E337BBADE%21333215&authkey=AAO6WAfmV28JmmI) bfmat file from `TBox_Field_Iron`.
 
@@ -178,7 +175,7 @@ In the `Tex1` file, right-click the `Textures` folder and click `Import`.
 ![0022](https://user-images.githubusercontent.com/80713508/147892531-e2c5888f-8f20-4f4e-9f38-e59102873729.png)
 
 Browse for your textures and click `Open`; I am using [these](https://onedrive.live.com/download?cid=74309C0E337BBADE&resid=74309C0E337BBADE%21333213&authkey=AAW9Hj_2-lmiz0s) basic textures.
-> If you use PNG (Or nay non-encoded format), make sure to set the correct texture format following [this](https://github.com/ArchLeaders/Botw-Modding-Toolkit/blob/master/Docs/Info/TextureFormats.md) guide.
+> If you use PNG (Or any non-encoded format), make sure to set the correct texture format following [this](https://github.com/ArchLeaders/Botw-Modding-Toolkit/blob/master/Docs/Info/TextureFormats.md) guide.
 
 ![_blank](https://user-images.githubusercontent.com/80713508/147893127-34fe7881-722d-41b6-9ca4-756b8d96a332.png)
 
@@ -239,7 +236,7 @@ Load a save in BotW and click `Scan Memory` in the [Memory Editor](https://onedr
 
 ![0030](https://user-images.githubusercontent.com/80713508/147892552-0c0484f0-560c-4ff7-a4d0-df29ce335ea0.png)
 
-In the `Weapons` tab, select any weapon and change the ID to the `New Actor Name` and click `Update`.
+In the `Weapons` tab, select any weapon and change the ID to the `New Actor Name`, then click `Update`.
 
 ![0031](https://user-images.githubusercontent.com/80713508/147892556-844cb881-d9f1-4ebc-aa08-df6c76eb2b54.png)
 
