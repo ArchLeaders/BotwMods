@@ -1,1 +1,1 @@
-# Other mods nade into newer bnps and switch/wiiu ports.
+## Other mods made into newer bnps and switch/wiiu ports.
