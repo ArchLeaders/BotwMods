@@ -1,2 +1,3 @@
 # BotwMods
-GitHub host for all my mods, because GameBanana kinda sucks
+
+GitHub host for all my mods, because the GameBanana servers kinda suck.
