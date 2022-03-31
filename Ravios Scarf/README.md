@@ -1,8 +1,9 @@
-# Ravios Scarf
+# Ravio's Scarf
 
-### Removes the "hood" part of Ravios Hood.
+### Removes the "hood" part of Ravio's Hood.
 
-![main_1_edit](https://user-images.githubusercontent.com/80713508/161000215-5a18886a-53d0-441a-974c-6b8878d877da.png)
+![main_1_edit](https://user-images.githubusercontent.com/80713508/161000965-6f2d68cf-d351-443e-aaf3-57333c3a2b01.png)
+
 
 ![main_1](https://user-images.githubusercontent.com/80713508/160991909-8028b984-21cc-4430-926c-cce19a3a8f64.png)
 
