@@ -2,8 +2,7 @@
 
 ### Removes the "hood" part of Ravio's Hood.
 
-![main_1_edit](https://user-images.githubusercontent.com/80713508/161000965-6f2d68cf-d351-443e-aaf3-57333c3a2b01.png)
-
+[![youtube](https://user-images.githubusercontent.com/80713508/161000965-6f2d68cf-d351-443e-aaf3-57333c3a2b01.png)](https://www.youtube.com/watch?v=8f8MexHvBkM)
 
 ![main_1](https://user-images.githubusercontent.com/80713508/160991909-8028b984-21cc-4430-926c-cce19a3a8f64.png)
 
