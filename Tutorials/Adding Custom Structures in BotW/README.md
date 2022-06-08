@@ -3,7 +3,7 @@
 # Prerequisites:
 - [BCML](https://gamebanana.com/tools/6624)
 - [Blender](https://www.blender.org/download/)
-- [BotW Modding Toolkit](https://onedrive.live.com/download?cid=74309C0E337BBADE&resid=74309C0E337BBADE%21333210&authkey=AIvYBLZa9siUSoA) (MTK)
+- [BOTW Modding Toolkit](https://github.com/ArchLeaders/Botw-Modding-Toolkit/releases/latest) (MTK)
 - [Breath of the Wow](https://onedrive.live.com/download?cid=74309C0E337BBADE&resid=74309C0E337BBADE%21333211&authkey=AOErcELM6eb2RHk) (Memory Editor)
 - [HKX2 Blender Addon](https://gitlab.com/HKX2/BlenderAddon/-/raw/main/blenderaddon_hkx2.zip)
 - [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/releases) (STB)
