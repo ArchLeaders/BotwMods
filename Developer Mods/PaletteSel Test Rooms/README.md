@@ -1,7 +1,7 @@
 ## - Notice -
 > [YouTube](https://www.youtube.com/watch?v=MDKuxDUZefU) | [Download](https://github.com/ArchLeaders/BotwMods/raw/main/Developer%20Mods/PaletteSel%20Test%20Rooms/SelPalette%20Test%20Rooms-v0.1.16.bnp)
 
-This mod is aimed at mod developers; do not use it when playing the game.<br.
+This mod is aimed at mod developers; do not use it when playing the game.<br>
 I would also recommend that you create a new save game when using this mod.<br>
 It adds over 1000 new game data flags which could mess up your save game.<br>
 
